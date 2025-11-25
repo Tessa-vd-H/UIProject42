@@ -1,0 +1,51 @@
+Screen {
+        background: #2b1b0d;
+        layout: vertical;
+        align-horizontal: center;
+        align-vertical: middle;
+    }
+
+    #book-wrapper {
+        layout: vertical;
+        align-horizontal: center;
+        align-vertical: middle;
+    }
+
+    #book {
+        layout: horizontal;
+        width: 90%;
+        height: 80%;
+        border: round #541b21;
+        padding: 1;
+        background: #853435;
+        transition: offset_x 200ms linear, opacity 150ms linear;
+    }
+
+    .centered-title {
+        content-align: center top;
+        text-style: bold;
+    }
+
+
+    .page {
+        width: 48%;
+        height: 100%;
+        padding: 3 5;
+        border: round #b58e5e;
+        color: #363636;
+        text-style: bold;
+    }
+
+    #left {
+        background: #f5e7ce;
+    }
+
+    #right {
+        background: #f1e1bf;
+    }
+
+    #spine {
+        width: 2%;
+        background: #8b5a2b;
+        border: tall #853435;
+    }
